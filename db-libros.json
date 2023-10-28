@@ -1,0 +1,480 @@
+{
+  "usuarios": [
+    {
+      "id": "a1",
+      "nombres": "James Gomez",
+      "email": "james@gmail.com",
+      "password": "123456"
+    },
+    {
+      "nombres": "Jhon Doe",
+      "email": "jhon@gmail.com",
+      "password": "123",
+      "id": "IPB7fSC"
+    },
+    {
+      "nombres": "Juan Ejemplo",
+      "email": "ejemplo@gmail.com",
+      "password": "123456",
+      "id": "NgbZCib"
+    },
+    {
+      "nombres": "Juan Ejemplo",
+      "email": "ejemplo@gmail.com",
+      "password": "123456",
+      "id": "S_Faisg"
+    }
+  ],
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "editorial": "Contemporanea",
+      "idioma": "Español",
+      "portada": "cien-a-soledad",
+      "descripcion": "La novela que lanzó a la fama a Gabriel García Márquez y donde el realismo mágico se ve reflejado en la historia de la familia Buendía y de Macondo.",
+      "precio": 34000
+    },
+    {
+      "id": 2,
+      "titulo": "La Odisea",
+      "autor": "Homero",
+      "editorial": "Penguin Clásicos",
+      "idioma": "Español",
+      "portada": "la-odisea",
+      "descripcion": "Regreso del padre a la casa después de un largo viaje (Ilíada) para reunirse con su familia y vengarse de los pretendientes insolentes de su esposa que todavía espera la llegada de Ulises.",
+      "precio": 42500
+    },
+    {
+      "id": 3,
+      "titulo": "Crónica de una muerte anunciada",
+      "autor": "Gabriel García Márquez",
+      "editorial": "Diana Mexico",
+      "idioma": "Español",
+      "portada": "cronica-muerte",
+      "descripcion": "Un hombre regresa al pueblo donde ocurrió un asesinato desconcertante 27 años atrás, con la determinación de descubrir la verdad.",
+      "precio": 52800
+    },
+    {
+      "id": 4,
+      "titulo": "La Biblioteca de la Media Noche",
+      "autor": "Matt Haig",
+      "editorial": "Adn Editores",
+      "idioma": "Español",
+      "portada": "biblioteca-noche",
+      "descripcion": "Entre la vida y la muerte hay una biblioteca. Y los estantes de esa biblioteca son infinitos. Cada libro da la oportunidad de probar otra vida que podrías haber vivido y de comprobar cómo habrían cambiado las cosas si hubieras tomado otras decisiones...",
+      "precio": 42500
+    },
+    {
+      "id": 6,
+      "titulo": "Luces de Bohemia",
+      "autor": "Consuelo Garcia Gallarin",
+      "editorial": "Akal",
+      "idioma": "Español",
+      "portada": "Luces-de-Bohemia",
+      "descripcion": "Jacques Teton lleva más de cuarenta años de apasionada dedicación a la acuariofilia. Cofundador y redactor jefe de la revista 'Aquarama', ha escrito e ilustrado diversas obras sobre el tema.",
+      "precio": 16500
+    },
+    {
+      "id": 7,
+      "titulo": "Crimen y Castigo",
+      "autor": "Fiodor Dostoyevski",
+      "editorial": "Editorial Alma",
+      "idioma": "Español",
+      "portada": "Crimen-y-Castigo",
+      "descripcion": "La historia narra la vida de Rodión Raskólnikov, un estudiante en la capital de la Rusia Imperial, San Petersburgo.",
+      "precio": 130000
+    },
+    {
+      "id": 8,
+      "titulo": "La casa de los espíritus",
+      "autor": "Isabel Allende",
+      "editorial": "Publicado por Plaza & Janés, Esplugues de Llobregat",
+      "idioma": "Español",
+      "portada": "La-casa-de-los-espíritus",
+      "descripcion": "Primera novela de Isabel Allende, La casa de los espíritus narra la saga de una poderosa familia de terratenientes latinoamericanos.",
+      "precio": 32900
+    },
+    {
+      "id": 9,
+      "titulo": "Preludio a la fundacion",
+      "autor": "Isaac Asimov",
+      "editorial": "Publicado por Plaza & Janés",
+      "idioma": "Español",
+      "portada": "Preludio-a-la-fundacion",
+      "descripcion": "Isaac Asimov es el autor más influyente y destacado de la ciencia ficción y la divulgación científica del siglo xx.",
+      "precio": 87442
+    },
+    {
+      "id": 9,
+      "titulo": "Las Almas Muertas",
+      "autor": "Nikolai V Gogol",
+      "editorial": "Publicado por Seix Barral",
+      "idioma": "Español",
+      "portada": "Las-Almas-Muertas",
+      "descripcion": "Tiene ciertas similitudes con El Quijote pues el protagonista Chíchikov junto con su cochero y un criado emprenden un viaje en su troika por los amplios territorios de la vasta Rusia deteniéndose en ciudades y aldeas con la intención de comprar almas, almas muertas.",
+      "precio": 165900
+    },
+    {
+      "id": 10,
+      "titulo": "Las Almas Muertas",
+      "autor": "Nikolai V Gogol",
+      "editorial": "Publicado por Seix Barral",
+      "idioma": "Español",
+      "portada": "Las-Almas-Muertas",
+      "descripcion": "Tiene ciertas similitudes con El Quijote pues el protagonista Chíchikov junto con su cochero y un criado emprenden un viaje en su troika por los amplios territorios de la vasta Rusia deteniéndose en ciudades y aldeas con la intención de comprar almas, almas muertas.",
+      "precio": 165900
+    },
+    {
+      "id": 11,
+      "titulo": "Cumbres Borrascosas",
+      "autor": "Emily Brontë",
+      "editorial": "Publicado por Editorial Alma",
+      "idioma": "Español",
+      "portada": "Cumbres-Borrascosas",
+      "descripcion": "Tiene ciertas similitudes con El Quijote pues el protagonista Chíchikov junto con su cochero y un criado emprenden un viaje en su troika por los amplios territorios de la vasta Rusia deteniéndose en ciudades y aldeas con la intención de comprar almas, almas muertas.",
+      "precio": 24500
+    },
+    {
+      "id": 12,
+      "titulo": "Diario De Rodaje Al Sur De Granad (Fahrenheit 451)",
+      "autor": "Fernando Colomo",
+      "editorial": "Ocho y Medio Libros",
+      "idioma": "Español",
+      "portada": "Diario-De-Rodaje-Al-Sur-De-Granad",
+      "descripcion": "Fernando Colomo escribió durante el rodaje de su última película en las Alpujarras granadinas un diario relatando todas vicisitudes que se desarrollaron durante la filmación de la misma.",
+      "precio": 60000
+    },
+    {
+      "id": 13,
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury",
+      "editorial": "Reclam",
+      "idioma": "Ingles",
+      "portada": "Fahrenheit-451",
+      "descripcion": "Fahrenheit 451 es una novela distópica del escritor estadounidense Ray Bradbury, publicada en 1953 y considerada una de sus mejores obras.",
+      "precio": 34200
+    },
+    {
+      "id": 14,
+      "titulo": "En el Camino",
+      "autor": "Jack Kerouac",
+      "editorial": "Bruguera",
+      "idioma": "Español",
+      "portada": "En-el-Camino",
+      "descripcion": "Con el paso del tiempo, En el camino, un libro que fue la biblia y el manifiesto de la generación beat, se ha convertido en una novela de culto y un clásico de la literatura norteamericana.",
+      "precio": 134290
+    },
+    {
+      "id": 15,
+      "titulo": "El Extranjero",
+      "autor": "Albert Camus",
+      "editorial": "Circulo de Lectores",
+      "idioma": "Español",
+      "portada": "El-Extranjero",
+      "descripcion": "El extranjero es una novela publicada en 1942, la primera del escritor francés Albert Camus. El extranjero suele asociarse a la filosofía del absurdo y al existencialismo, aunque Camus siempre se distanció de esta última etiqueta.",
+      "precio": 88000
+    },
+    {
+      "id": 16,
+      "titulo": "Dracula Reading & Training",
+      "autor": "Bram Stroker",
+      "editorial": "Black Cat Cideb",
+      "idioma": "Ingles",
+      "portada": "Dracula",
+      "descripcion": "In 2002, World of Books Group was founded on an ethos to do good, protect the planet and support charities by enabling more goods to be reused. Since then, we've grown into to a global company pioneering the circular economy.",
+      "precio": 49500
+    },
+    {
+      "id": 17,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "editorial": "Hamelyn",
+      "idioma": "Ingles",
+      "portada": "Dracula",
+      "descripcion": "Londres, 1984: Winston Smith decide rebelarse ante un gobierno totalitario que controla cada uno de los movimientos de sus ciudadanos y castiga incluso a aquellos que delinquen con el pensamiento.",
+      "precio": 29000
+    },
+    {
+      "id": 18,
+      "titulo": "Cuentos",
+      "autor": "Anton Pavlovich Chejov",
+      "editorial": "Alba, Alcobendas",
+      "idioma": "Español",
+      "portada": "Cuentos",
+      "descripcion": "Antón Pávlovich Chéjov fue un cuentista, dramaturgo y médico ruso.",
+      "precio": 77629
+    },
+    {
+      "id": 19,
+      "titulo": "Ensayo sobre la ceguera",
+      "autor": "Jose Saramago",
+      "editorial": "Punto de Lectura",
+      "idioma": "Español",
+      "portada": "Ensayo-sobre-la-ceguera",
+      "descripcion": "José Saramago (Azinhaga, 1922-Tías, Lanzarote, 2010) es uno de los escritores portugueses más conocidos y apreciados en el mundo entero.",
+      "precio": 30100
+    },
+    {
+      "id": 20,
+      "titulo": "La divina comedia I Dante",
+      "autor": "Dant Alighieri",
+      "editorial": "Barcino",
+      "idioma": "Italiano",
+      "portada": "La-divina-comedia",
+      "descripcion": "La Divina comedia, escrita por el florentino Dante Alighieri entre 1304 y 1321 aproximadamente, es una poesía épica, género literario que consiste en la narración en verso de las hazañas de los héroes.",
+      "precio": 87000
+    },
+    {
+      "id": 21,
+      "titulo": "La colmena",
+      "autor": "Camilo Jose Cela",
+      "editorial": "Espasa-Calpe",
+      "idioma": "Español",
+      "portada": "La-colmena",
+      "descripcion": "El estilo de La colmena presenta una apariencia de espontaneidad que esconde un cuidadoso trabajo de perfeccionamiento.",
+      "precio": 37800
+    },
+    {
+      "id": 22,
+      "titulo": "Don Quijote de la Mancha Parte 1",
+      "autor": "Miguel de Cervantes",
+      "editorial": "Millenium",
+      "idioma": "Español",
+      "portada": "Don-Quijote",
+      "descripcion": "Don Quijote de la Mancha​ es una novela escrita por el español Miguel de Cervantes Saavedra. Publicada su primera parte con el título de El ingenioso hidalgo.",
+      "precio": 71000
+    },
+    {
+      "id": 23,
+      "titulo": "Tierra baldía. Cuatro cuartetos",
+      "autor": "Eliot T.S.",
+      "editorial": "Fontamara México",
+      "idioma": "Español",
+      "portada": "Tierra-baldía",
+      "descripcion": "Cuatro cuartetos es el título con que reunió en forma de libro cuatro poemas largos el poeta, dramaturgo y crítico anglo-estadounidense T. S. Eliot. Los cuatro poemas habían sido publicados separadamente entre 1936 y 1942, siendo reeditados en 1944.",
+      "precio": 88000
+    },
+    {
+      "id": 24,
+      "titulo": "La insoportable levedad del ser",
+      "autor": "Milan Kundera",
+      "editorial": "Circulo de Lectores",
+      "idioma": "Español",
+      "portada": "Insoportable",
+      "descripcion": "Esta es una extraordinaria historia de amor o sea de celos de sexo de traiciones de muerte y tambiÃn de las debilidades y paradojas de la vida cotidiana de dos parejas cuyos destinos se entrelazan irremediablemente.",
+      "precio": 110000
+    },
+    {
+      "id": 25,
+      "titulo": "El Gran Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "editorial": "Bibliotex",
+      "idioma": "Español",
+      "portada": "El-Gran-Gatsby",
+      "descripcion": "Fascinado por el misterioso y adinerado Jay Gatsby, su vecino Nick Carraway se convierte en testigo del amor obsesivo del millonario y de su trágico final.",
+      "precio": 110000
+    },
+    {
+      "id": 26,
+      "titulo": "Yo, Claudio",
+      "autor": "Robert Graves",
+      "editorial": "Plaza & Janés, Esplugues de Llobregat",
+      "idioma": "Español",
+      "portada": "Yo-Claudio",
+      "descripcion": "Yo, Claudio es la novela más conocida​ del escritor británico Robert Graves y una de las grandes superventas del siglo XX. Está basada en las historias de Tácito, Plutarco y las Vidas de los doce césares de Suetonio, a quien Graves había traducido.",
+      "precio": 110000
+    },
+    {
+      "id": 27,
+      "titulo": "El prologo de los cuentos de Canterbury",
+      "autor": "Geoffrey Chaucer",
+      "editorial": "Indec",
+      "idioma": "Español",
+      "portada": "Prologo",
+      "descripcion": "El narrador cuenta que, cuando “Las suaves lluvias de abril han penetrado hasta lo más profundo de la sequía de marzo (...), la gente siente el ansia de peregrinar”.",
+      "precio": 101000
+    },
+    {
+      "id": 28,
+      "titulo": "El guardian entre el Centeno",
+      "autor": "Salinger, J. D.",
+      "editorial": "AIMS International Books",
+      "idioma": "Español",
+      "portada": "El-guardian",
+      "descripcion": "'El guardián entre el centeno' es un libro mítico por varias razones. La misantropía de J.D. Salinger.",
+      "precio": 104000
+    },
+    {
+      "id": 29,
+      "titulo": "Fausto",
+      "autor": "Goethe",
+      "editorial": "Alba",
+      "idioma": "Español",
+      "portada": "Fausto",
+      "descripcion": "Literatura alemana. Teatro. Melodramas. Comedias de misterio. Teatro popular. Siglo XVIII. (821.112.2-23 17) Alba.",
+      "precio": 25000
+    },
+    {
+      "id": 30,
+      "titulo": "Un mundo feliz",
+      "autor": "Aldous Huxley",
+      "editorial": "Plaza & Janés",
+      "idioma": "Español",
+      "portada": "Un-mundo-feliz",
+      "descripcion": "Literatura alemana. Teatro. Melodramas. Comedias de misterio. Teatro popular. Siglo XVIII. (821.112.2-23 17) Alba.",
+      "precio": 45000
+    },
+    {
+      "id": 31,
+      "titulo": "Estudio en escarlata",
+      "autor": "Conan Doyle",
+      "editorial": "Barral Editores",
+      "idioma": "Español",
+      "portada": "Escarlata",
+      "descripcion": "Literatura inglesa. Novelas policiacas, de misterio, de intriga. Siglo XX. (820-312.4 19 ) Barral, Editores. Barcelona.",
+      "precio": 38000
+    },
+    {
+      "id": 32,
+      "titulo": "Fuenteovejuna",
+      "autor": "Lope De Vega",
+      "editorial": "Ebro",
+      "idioma": "Español",
+      "portada": "Fuente",
+      "descripcion": "Literatura española. Poesía. Poesía dramática. Siglo XVII. (860-122 16 ) Literatura española. Teatro. Melodramas.",
+      "precio": 55000
+    },
+    {
+      "id": 33,
+      "titulo": "Madame Bovary",
+      "autor": "Gustave Flaubert",
+      "editorial": "Producciones Editoriales",
+      "idioma": "Español",
+      "portada": "Madame-Bovary",
+      "descripcion": "Madame Bovary es una novela escrita por Gustave Flaubert. Se publicó por entregas en La Revue de Paris desde el 1 de octubre de 1856 hasta el 15 de diciembre del mismo año.",
+      "precio": 27000
+    },
+    {
+      "id": 34,
+      "titulo": "Grandes esperanzas",
+      "autor": "Charles Dickens",
+      "editorial": "Vicens Vives",
+      "idioma": "Español",
+      "portada": "Grandes-esperanzas",
+      "descripcion": "Grandes esperanzas es una novela escrita por Charles Dickens. Fue publicada como serie, desde el 1 de diciembre de 1860 hasta agosto de 1861, en la revista literaria All the Year Round, que había sido fundada por el propio Dickens el año anterior.",
+      "precio": 27000
+    },
+    {
+      "id": 35,
+      "titulo": "Al faro",
+      "autor": "Virginias Woolf",
+      "editorial": "Feltrinelli",
+      "idioma": "Ingles",
+      "portada": "Al-faro",
+      "descripcion": "Gut/Very good: Buch bzw. Schutzumschlag mit wenigen Gebrauchsspuren an Einband, Schutzumschlag oder Seiten.",
+      "precio": 42000
+    },
+    {
+      "id": 36,
+      "titulo": "Frankenstein",
+      "autor": "Mary Shelley",
+      "editorial": "Oxford University Press",
+      "idioma": "Español",
+      "portada": "Frankenstein",
+      "descripcion": "Narrativa() Oxford University Press. Encuadernación en tapa Blanda. Shelley, Mary. 20 cm. FrankensteinTapa deslucida.Tapa ilustrada.",
+      "precio": 82500
+    },
+    {
+      "id": 37,
+      "titulo": "Demian",
+      "autor": "Hermann hesse",
+      "editorial": "Alianza",
+      "idioma": "Español",
+      "portada": "Demian",
+      "descripcion": "Demian: Die Geschichte von Emil Sinclairs Jugend es una novela del escritor alemán Hermann Hesse, publicada por primera vez en 1919, en los tiempos que siguieron a la Gran Guerra.",
+      "precio": 93000
+    },
+    {
+      "id": 38,
+      "titulo": "Ulises II",
+      "autor": "James Joyce",
+      "editorial": "Seix Barral",
+      "idioma": "Español",
+      "portada": "Ulises",
+      "descripcion": "Ulises es una novela vanguardista del escritor irlandés James Joyce, publicada en 1922 con ... Ulises (novela) ... 3.2 Parte II: La Odisea.",
+      "precio": 93000
+    },
+    {
+      "id": 39,
+      "titulo": "Eneida II",
+      "autor": "Publio Virgilio Marón",
+      "editorial": "Gredos",
+      "idioma": "Español",
+      "portada": "Eneida",
+      "descripcion": "Poesía épica latina Siglo I() Gredos. Encuadernación en tapa Blanda. Virgilio Marón.",
+      "precio": 52000
+    },
+    {
+      "id": 40,
+      "titulo": "Hamlet",
+      "autor": "Shakespeare",
+      "editorial": "Unidad Editorial",
+      "idioma": "Español",
+      "portada": "Hamlet",
+      "descripcion": "Literatura inglesa. Teatro. Tragedias. Siglo XVI. (821.111-21 15) Unidad Editorial.",
+      "precio": 65500
+    },
+    {
+      "id": 41,
+      "titulo": "Romancero gitano",
+      "autor": "Federico Garcia Lorca",
+      "editorial": "Optima Editorial",
+      "idioma": "Español",
+      "portada": "Romancero",
+      "descripcion": "FEDERICO GARCIA LORCA, ROMANCERO GITANO, POETA NUEVA YORK, LLANTO IGNACIO SANCHEZ, EDITORIAL OPTIMA 209 páginas, encuadernado en tapa dura con sobrecubierta, con láminas ilustradas por Federico Garcia Lorca, prólogo de Núria Espert, año 1997, segunda edición.",
+      "precio": 52000
+    },
+    {
+      "id": 42,
+      "titulo": "El retrato de Dorian Gray",
+      "autor": "Oscar Wilde",
+      "editorial": "Alma",
+      "idioma": "Español",
+      "portada": "El-retrato",
+      "descripcion": "El retrato de Dorian Gray es una novela filosófica que representa la obsesión sobre el poder de la juventud y la belleza.",
+      "precio": 63000
+    },
+    {
+      "id": 43,
+      "titulo": "Lolita",
+      "autor": "Vladimir Nabokov",
+      "editorial": "Bibliotex, S.L.",
+      "idioma": "Español",
+      "portada": "Lolita",
+      "descripcion": "Lolita es la novela más conocida del escritor de origen ruso, nacionalizado estadounidense, Vladimir Nabokov publicada por primera vez en 1955, que trata sobre la relación de un pedófilo de 40 años y su hijastra de 12 años.",
+      "precio": 22000
+    },
+    {
+      "id": 44,
+      "titulo": "Los viajes de Gulliver",
+      "autor": "Jonathan Swift",
+      "editorial": "Plaza & Janés",
+      "idioma": "Español",
+      "portada": "Los-viajes-de-Gulliver",
+      "descripcion": "Literatura.(82) Libros infantiles y juveniles.(087.5) Plaza & Janés. Esplugas de Llobregat, Barcelona.",
+      "precio": 28000
+    },
+    {
+      "id": 45,
+      "titulo": "Los miserables, Volumen 2",
+      "autor": "Victor Hugo",
+      "editorial": "Vanliber",
+      "idioma": "Español",
+      "portada": "Los-miserables",
+      "descripcion": "Los miserables es una novela del poeta y escritor francés Victor Hugo publicada en 1862, considerada como una de las obras más importantes del siglo XIX.",
+      "precio": 199000
+    }
+  ]
+}
