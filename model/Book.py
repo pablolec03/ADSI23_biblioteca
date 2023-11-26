@@ -1,5 +1,7 @@
-from .Connection import db
+from .Connection import Connection
 from .Author import Author
+
+db = Connection()
 
 class Book:
 	def __init__(self, id, title, author, cover, description):

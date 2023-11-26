@@ -1,11 +1,10 @@
-from .LibraryController import library
+from .LibraryController import LibraryController
 from flask import Flask, render_template, request, make_response, redirect
 
 app = Flask(__name__, static_url_path='', static_folder='../view/static', template_folder='../view/')
 
 
-class Object:
-	pass
+library = LibraryController()
 
 
 @app.before_request

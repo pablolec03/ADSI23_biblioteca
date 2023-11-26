@@ -1,6 +1,8 @@
 import datetime
-from .Connection import db
+from .Connection import Connection
 from .tools import hash_password
+
+db = Connection()
 
 class Session:
 	def __init__(self, hash, time):

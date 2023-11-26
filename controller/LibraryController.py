@@ -1,8 +1,18 @@
-from model import db, Book, User
-
+from model import Connection, Book, User
 from model.tools import hash_password
 
+db = Connection()
+
 class LibraryController:
+	__instance = None
+
+	def __new__(cls):
+		if cls.__instance is None:
+			cls.__instance = super(LibraryController, cls).__new__(cls)
+			cls.__instance.__initialized = False
+		return cls.__instance
+
+
 	def search_books(self, title="", author="", limit=6, page=0):
 		count = db.select("""
 				SELECT count() 
@@ -38,5 +48,3 @@ class LibraryController:
 			return User(user[0][0], user[0][1], user[0][2])
 		else:
 			return None
-
-library = LibraryController()
