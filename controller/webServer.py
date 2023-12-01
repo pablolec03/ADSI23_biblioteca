@@ -56,7 +56,10 @@ def login():
 		resp.set_cookie('token', session.hash)
 		resp.set_cookie('time', str(session.time))
 	else:
-		resp = make_response(render_template('login.html'))
+		if request.method == 'POST':
+			return redirect('/login')
+		else:
+			resp = render_template('login.html')
 	return resp
 
 
