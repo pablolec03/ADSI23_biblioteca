@@ -13,7 +13,7 @@ def get_logged_user():
 		token = request.cookies.get('token')
 		time = request.cookies.get('time')
 		if token and time:
-			request.user = library.get_user_cookies(token, int(time))
+			request.user = library.get_user_cookies(token, float(time))
 			if request.user:
 				request.user.token = token
 
