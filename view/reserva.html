@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Libro</title>
+</head>
+<body>
+    <h1>Reserva de Libro</h1>
+    <form action="/reservar" method="post">
+        <label for="book_id">ID del Libro:</label><br>
+        <input type="number" id="book_id" name="book_id" required><br>
+
+        <label for="copy_id">ID de la Copia:</label><br>
+        <input type="number" id="copy_id" name="copy_id" required><br>
+
+        <label for="start_date">Fecha de Inicio (YYYY-MM-DD):</label><br>
+        <input type="date" id="start_date" name="start_date" required><br>
+
+        <label for="end_date">Fecha de Fin (YYYY-MM-DD):</label><br>
+        <input type="date" id="end_date" name="end_date" required><br>
+
+        <input type="submit" value="Reservar">
+    </form>
+</body>
+</html>

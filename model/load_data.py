@@ -46,6 +46,28 @@ cur.execute("""
 	)
 """)
 
+
+cur.execute("""
+	CREATE TABLE Copies(
+		 copy_id INTEGER PRIMARY KEY,
+    book_id INTEGER NOT NULL,
+    status TEXT NOT NULL DEFAULT 'available',
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
+	)
+""")
+
+
+cur.execute("""
+	CREATE TABLE Reservations(
+    reservation_id INTEGER PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    copy_id INTEGER NOT NULL,
+    start_date TEXT NOT NULL,
+    end_date TEXT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+    FOREIGN KEY (copy_id) REFERENCES Copies(copy_id)
+	)
+""")
 ### Insert users
 
 with open('usuarios.json', 'r') as f:
@@ -75,6 +97,3 @@ for author, title, cover, description in libros:
 		            (title, author_id, cover, description.strip()))
 
 	con.commit()
-
-
-

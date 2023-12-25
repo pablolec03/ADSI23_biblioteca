@@ -1,10 +1,10 @@
-from .LibraryController import LibraryController
-from flask import Flask, render_template, request, make_response, redirect
+import controller.LibraryController
+from flask import Flask, render_template, request, make_response, redirect, url_for
 
 app = Flask(__name__, static_url_path='', static_folder='../view/static', template_folder='../view/')
 
 
-library = LibraryController()
+library = controller.LibraryController.LibraryController()
 
 
 @app.before_request
@@ -73,3 +73,27 @@ def logout():
 		request.user.delete_session(request.user.token)
 		request.user = None
 	return resp
+
+
+
+@app.route('/reserva', methods=['GET'])
+def mostrar_pagina_reserva():
+    # Renderizar la página de reserva
+    return render_template('reserva.html')
+
+@app.route('/reservar', methods=['POST'])
+def procesar_reserva():
+    # Obtener los datos del formulario
+    book_id = request.form['book_id']
+    copy_id = request.form['copy_id']
+    start_date = request.form['start_date']
+    end_date = request.form['end_date']
+
+    # Llamar al método del controlador para añadir la reserva
+    resultado = controller.LibraryController.LibraryController.add_reservation(book_id, copy_id, start_date, end_date)
+
+    # Redirigir o mostrar un mensaje según el resultado
+    if resultado:
+        return redirect(url_for('pagina_exitosa'))  # O mostrar un mensaje de éxito
+    else:
+        return redirect(url_for('pagina_error'))  # O mostrar un mensaje de error
